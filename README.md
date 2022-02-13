@@ -19,10 +19,11 @@ End the program
 #Developed by: Lathika Sunder
 #RegisterNumber:212221230054
 import numpy as np
-A=np.array([[1,3],[2,5]])
-B=np.array([5,-3])
+A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+B=np.array([-9,4,-1])
 value=np.linalg.solve(A,B)
 print(value)
+
 ```
 
 ## Output:
